@@ -1,0 +1,17 @@
+{
+  "name": "shuji-client",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "node dist/index.js",
+    "build": "tsc",
+    "watch": "tsc -w"
+  },
+  "repository": "https://github.com/wrule/shuji-client.git",
+  "author": "jimao <1982775886@qq.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "socket.io-client": "^3.0.4"
+  }
+}
