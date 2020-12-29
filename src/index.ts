@@ -4,7 +4,8 @@ export class Client {
 }
 
 import * as SocketIOClient from 'socket.io-client'
-let client = SocketIOClient.io('http://localhost:9079')
+
+let client = SocketIOClient.connect('http://localhost:9079')
 console.log('客户端已创建...');
 client.on('connect', () => {
   console.log('已经连接到服务端');
